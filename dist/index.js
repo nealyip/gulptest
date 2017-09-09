@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var hello_1 = require("./modules/hello");
 var helpers = require("nealyip-aws-lambda-helper/helpers");
 var export_default_1 = require("./modules/export.default");
+var hello_2 = require("../dist/modules/hello");
 function aaa(a) {
     console.log(a);
     var _loop_1 = function (i) {
@@ -20,3 +21,5 @@ function aaa(a) {
 }
 export_default_1.default();
 aaa('b');
+var c = new hello_2.IOAB();
+console.log(c.dwdwdw);

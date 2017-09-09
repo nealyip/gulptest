@@ -4,6 +4,7 @@
 import {IOAB} from "./modules/hello";
 import helpers = require("nealyip-aws-lambda-helper/helpers");
 import babc from "./modules/export.default";
+import {IOAB as IOAB2} from "../dist/modules/hello";
 
 function aaa(a:string){
     console.log(a);
@@ -16,3 +17,5 @@ function aaa(a:string){
 }
 babc();
 aaa('b');
+let c = new IOAB2();
+console.log(c.dwdwdw);

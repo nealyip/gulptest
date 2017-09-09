@@ -1,2 +1,3 @@
 docker run --rm -v /x/Library/gulptest:/app -w /app --entrypoint npm node:6 run build
 docker run --rm -v /x/Library/gulptest:/app -w /app --entrypoint node node:6 dist/index.js
+docker run --rm -v `wpwd`:/app -w /app --entrypoint node node:6 node.js
