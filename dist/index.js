@@ -1,16 +1,22 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+/**
+ * https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
+ */
 var hello_1 = require("./modules/hello");
 var helpers = require("nealyip-aws-lambda-helper/helpers");
+var export_default_1 = require("./modules/export.default");
 function aaa(a) {
     console.log(a);
     var _loop_1 = function (i) {
-        setTimeout(function () { return console.log(i); }, i * 500);
+        setTimeout(function () { return console.log(i); }, i * 100);
     };
-    for (var i = 0; i < 10; ++i) {
+    for (var i = 0; i < 1; ++i) {
         _loop_1(i);
     }
-    var b = new hello_1.A();
+    var b = new hello_1.IOAB();
+    console.log(b.dwdwdw);
     console.log(helpers.dateBefore(3));
 }
+export_default_1.default();
 aaa('b');

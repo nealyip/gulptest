@@ -1,9 +1,20 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var A = /** @class */ (function () {
-    function A() {
+var IOAB = /** @class */ (function () {
+    function IOAB() {
         console.log('a');
     }
-    return A;
+    Object.defineProperty(IOAB.prototype, "dwdwdw", {
+        get: function () {
+            return 'a';
+        },
+        enumerable: true,
+        configurable: true
+    });
+    IOAB.prototype.aabbcc = function () {
+        return 'b';
+    };
+    return IOAB;
 }());
-exports.A = A;
+exports.IOAB = IOAB;
+;
