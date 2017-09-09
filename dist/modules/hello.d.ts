@@ -3,3 +3,6 @@ export declare class IOAB {
     readonly dwdwdw: string;
     aabbcc(): string;
 }
+export declare class DDEE {
+    constructor();
+}

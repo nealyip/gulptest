@@ -18,3 +18,10 @@ var IOAB = /** @class */ (function () {
 }());
 exports.IOAB = IOAB;
 ;
+var DDEE = /** @class */ (function () {
+    function DDEE() {
+        console.log('ddee');
+    }
+    return DDEE;
+}());
+exports.DDEE = DDEE;

@@ -11,3 +11,8 @@ export class IOAB {
         return 'b';
     }
 };
+export class DDEE {
+    constructor(){
+        console.log('ddee');
+    }
+}

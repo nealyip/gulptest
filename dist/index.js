@@ -23,3 +23,4 @@ export_default_1.default();
 aaa('b');
 var c = new hello_2.IOAB();
 console.log(c.dwdwdw);
+var ddee = new hello_1.DDEE();
